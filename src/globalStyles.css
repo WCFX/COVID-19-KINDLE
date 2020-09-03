@@ -10,12 +10,13 @@ html, body {
   -moz-font-smoothing: grayscale;
 }
 body {
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 a {
   cursor: pointer;
-  text-decoration: none
+  text-decoration: none;
+  color: var(--color-blue);
 }
 ul {
   list-style: none
@@ -28,5 +29,7 @@ button, input {
   --color-yellow: #e5bd1c;
   --color-white: #fff;
   --color-grey: #6e6e6e;
+  --color-background-blue: #003f71;
+  --color-background-opacity: #557fa0;
 }
 
