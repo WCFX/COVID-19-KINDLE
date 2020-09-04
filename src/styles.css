@@ -55,33 +55,14 @@ li a:hover:after {
   height: 100vh;
 }
 .card-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  border: 1px solid red;
-  max-height: 440px;
   max-width: 1110px;
   margin: 0 auto;
-}
-.information-card-1 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-right: 50px;
-  margin-left: -250px;
+}
 
-}
-#virus-1 {
-  background: radial-gradient(circle, rgba(86,127,160,1) 7%, rgba(25,81,126,0) 62%, rgba(0,63,113,0) 65%);
-  bottom: 0;
-  height: 600px;
-  width: 1150px;
-  margin-left: -350px;
-  margin-top: 160px;
-}
 .card-1 h1 {
-  font-size: 5.1rem;
+  border: 1px solid black;
+  font-size: 4rem;
   color: var(--color-yellow);
   font-weight: 300;
 }
@@ -91,19 +72,12 @@ li a:hover:after {
 }
 
 
-
-
-
-/* #container-svg{
-  background: radial-gradient(circle, rgba(86,127,160,1) 7%, rgba(25,81,126,0) 52%, rgba(0,63,113,0) 65%);
-  height: 100%;
-  width: 60%;
-  position: absolute;
-  left: 0;
-  margin-right: 800px;
-  margin-top: -100px;
+#virus-1 {
+  border: 1px solid black;
+  height: 350px;
+  width: 350px;
+  background: radial-gradient(circle, rgba(86,127,160,1) 7%, rgba(25,81,126,0) 62%, rgba(0,63,113,0) 65%);
 }
 
-#section-1 .container-1 {
-  max-width: 1180px;
-} */
+
+/* background: radial-gradient(circle, rgba(86,127,160,1) 7%, rgba(25,81,126,0) 62%, rgba(0,63,113,0) 65%); */
