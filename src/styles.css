@@ -2,36 +2,38 @@
 
 nav {
   display: flex;
-  height: 100px;
-  max-width: 1180px;
+  height: 80px;
+  max-width: 1110px;
   margin: 0 auto;
   align-items: center;
-  /* justify-content: space-around; */
+  justify-content: space-between;
+  border: 1px solid black;
+  position: relative;
 }
 .logo-img {
   max-width: 50px;
   max-height: 50px;
-  margin-left: 50px;
+  /* margin-left: 100px; */
 }
 ul {
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 li {
   font-size: 1.8rem;
   margin-right: 10px;
 }
 li + li {
-  margin-left: 15px;
+  margin-left: 35px;
 }
-a {
+li a {
   display: inline-block;
   position: relative;
   padding-bottom: 5px;
   padding-top: 5px;
 }
-a:after {
+li a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -43,15 +45,65 @@ a:after {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-a:hover:after {
+li a:hover:after {
   width: 100%;
   left: 0;
 }
 
-/* Section 1 */
-#section-1 {
+#container {
   background: var(--color-background-blue);
+  height: 100vh;
 }
+.card-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border: 1px solid red;
+  max-height: 440px;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.information-card-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 50px;
+  margin-left: -250px;
+
+}
+#virus-1 {
+  background: radial-gradient(circle, rgba(86,127,160,1) 7%, rgba(25,81,126,0) 62%, rgba(0,63,113,0) 65%);
+  bottom: 0;
+  height: 600px;
+  width: 1150px;
+  margin-left: -350px;
+  margin-top: 160px;
+}
+.card-1 h1 {
+  font-size: 5.1rem;
+  color: var(--color-yellow);
+  font-weight: 300;
+}
+.card-1 p {
+  font-size: 2rem;
+  color: var(--color-white);
+}
+
+
+
+
+
+/* #container-svg{
+  background: radial-gradient(circle, rgba(86,127,160,1) 7%, rgba(25,81,126,0) 52%, rgba(0,63,113,0) 65%);
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  left: 0;
+  margin-right: 800px;
+  margin-top: -100px;
+}
+
 #section-1 .container-1 {
   max-width: 1180px;
-}
+} */
